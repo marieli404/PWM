@@ -1,0 +1,123 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+}
+body{
+    background-image: url(zyro-image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: rgb(226, 197, 226);
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(148, 84, 190);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    margin-right: 10px;
+}
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: turquoise;
+    background: rgb(71, 19, 19);
+    transition: all 0.8s;
+    border-radius: 20%;
+}
+#menu {
+    font-size: 15px;
+    background-color:rgb(134, 90, 134,0.70) ;
+    float: left;
+    margin: 15px;
+    border-radius: 20px;
+    height: 100%;
+    padding: 15px;
+    width: 350px;
+}
+#menu a:hover{
+    color: black;
+    background:#2cbccf;
+    transition: all 0.8s;
+    border-radius: 15%;
+}
+#contenido {
+    color: rgb(252, 244, 244);
+    background-color: rgb(173, 76, 173,0.55);
+    font-family: 'Courier New', Courier, monospace;
+    float: left;
+    margin: 20px;
+    height: 100%;
+    padding: 10px;
+    width: 500px;
+    border-radius: 15px;
+}
+.img{
+    float: right;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 15px;
+    padding: 10px 10px;
+}
+#integrantes {
+    color: rgb(97, 221, 221);
+    background-color: rgb(0, 0, 0,0.70);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    float: left;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 40px;
+    width: 300px;
+    height: 100%;
+}
+#cont {
+    background-color: rgba(26, 27, 92, 0.7);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    color: #5ec1ce;
+    float:left;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    width: 500px;
+}
+#cont a:hover{
+    color: rgb(141, 96, 96);
+    background: aqua;
+    transition: 0.8s;
+    border-radius: 15%;
+}
+#giras {
+    background-color: rgb(11, 17, 71, 0.70 );
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    color: #2cbccf;
+    float:left;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    width: 550px;
+}
+#pie {
+    background-color: rgb(99, 14, 14);
+    clear: both;
+    color: rgb(211, 123, 123);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}   
